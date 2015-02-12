@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MailSteward", "MailSteward\MailSteward.vbproj", "{8BCCE356-70F8-40C1-91F3-A7C556372D0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EB74166-B670-4FFD-B6B0-2B411E16E393} = {0EB74166-B670-4FFD-B6B0-2B411E16E393}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetSecurity", "SetSecurity\SetSecurity.csproj", "{56E8E807-0807-45E0-B19A-98912AE47630}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BC6AAC3-0769-48DE-AC60-0123C686D215}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MailSteward.vsmdi = MailSteward.vsmdi
+		MailSteward1.vsmdi = MailSteward1.vsmdi
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OutlookUtils", "OutlookUtils\OutlookUtils.vbproj", "{0EB74166-B670-4FFD-B6B0-2B411E16E393}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MailStewardControl", "MailStewardControl\MailStewardControl.vbproj", "{A7F14F5B-E1FA-40B2-BF5C-D628F1B0821C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MailStewardTest", "MailStewardTest\MailStewardTest.vbproj", "{E95E5292-9BBE-4B7F-B54B-217761A40BDD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MailStewardSetup", "MailStewardSetup\MailStewardSetup.vdproj", "{D341CD97-99A9-4629-92D6-41E7E836CF25}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MailSteward1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BCCE356-70F8-40C1-91F3-A7C556372D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BCCE356-70F8-40C1-91F3-A7C556372D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BCCE356-70F8-40C1-91F3-A7C556372D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BCCE356-70F8-40C1-91F3-A7C556372D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E8E807-0807-45E0-B19A-98912AE47630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E8E807-0807-45E0-B19A-98912AE47630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E8E807-0807-45E0-B19A-98912AE47630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E8E807-0807-45E0-B19A-98912AE47630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB74166-B670-4FFD-B6B0-2B411E16E393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB74166-B670-4FFD-B6B0-2B411E16E393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB74166-B670-4FFD-B6B0-2B411E16E393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB74166-B670-4FFD-B6B0-2B411E16E393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F14F5B-E1FA-40B2-BF5C-D628F1B0821C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F14F5B-E1FA-40B2-BF5C-D628F1B0821C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F14F5B-E1FA-40B2-BF5C-D628F1B0821C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F14F5B-E1FA-40B2-BF5C-D628F1B0821C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95E5292-9BBE-4B7F-B54B-217761A40BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95E5292-9BBE-4B7F-B54B-217761A40BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95E5292-9BBE-4B7F-B54B-217761A40BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95E5292-9BBE-4B7F-B54B-217761A40BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D341CD97-99A9-4629-92D6-41E7E836CF25}.Debug|Any CPU.ActiveCfg = Debug
+		{D341CD97-99A9-4629-92D6-41E7E836CF25}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
