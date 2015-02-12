@@ -25,7 +25,7 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MailStewardSetup", "MailSte
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = MailSteward1.vsmdi
+		CategoryFile = MailSteward.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

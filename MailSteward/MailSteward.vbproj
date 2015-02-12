@@ -40,7 +40,7 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <IsWebBootstrapper>False</IsWebBootstrapper>
-    <ManifestCertificateThumbprint>D66C9056E8EA724823DDF59CDA342B1C911DC8C0</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>CE307147847A9C0A62EF6775BA967F52E7D5D372</ManifestCertificateThumbprint>
     <ManifestKeyFile>
     </ManifestKeyFile>
     <SignManifests>true</SignManifests>
@@ -100,7 +100,7 @@
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\MailSteward.bin\Debug\</OutputPath>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
     <NoWarn>42016,42017,42018,42019,42032</NoWarn>
@@ -128,7 +128,7 @@
     <DefineTrace>true</DefineTrace>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\MailSteward.bin\Release\</OutputPath>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
     <NoWarn>42016,42017,42018,42019,42032</NoWarn>
