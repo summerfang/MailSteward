@@ -32,7 +32,7 @@
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>MailStewardStrongName.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>MailSteward.snk</AssemblyOriginatorKeyFile>
     <OfficeApplication>Outlook</OfficeApplication>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -40,8 +40,9 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <IsWebBootstrapper>False</IsWebBootstrapper>
-    <ManifestCertificateThumbprint>036BBAB3795BD4A8E8D05E18E706AB1AC270B145</ManifestCertificateThumbprint>
-    <ManifestKeyFile>MailSteward_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestCertificateThumbprint>D66C9056E8EA724823DDF59CDA342B1C911DC8C0</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
     <SignManifests>true</SignManifests>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <PublishUrl>publish\</PublishUrl>
@@ -207,8 +208,7 @@
       <SubType>Code</SubType>
     </Compile>
     <None Include="MailSteward.cd" />
-    <None Include="MailStewardStrongName.pfx" />
-    <None Include="MailSteward_TemporaryKey.pfx" />
+    <None Include="MailSteward.snk" />
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.vb</DependentUpon>
     </None>

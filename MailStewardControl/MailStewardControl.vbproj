@@ -17,7 +17,7 @@
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>MailStewardControl.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>MailStewardControl.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -116,7 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DisplayFoldersBar.cd" />
-    <None Include="MailStewardControl.pfx" />
+    <None Include="MailStewardControl.snk" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
